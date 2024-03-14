@@ -1,0 +1,74 @@
+{
+  "retiree": {
+    "field_type": "Select",
+    "label": "Retiree",
+    "required": true,
+    "className": "form-field",
+    "options": [
+      { "value": "yes", "label": "Yes" },
+      { "value": "no", "label": "No" }
+    ]
+  },
+  "redf": {
+    "field_type": "Select",
+    "className": "form-field",
+    "label": "REDF",
+    "required": true,
+    "options": [
+      { "value": "option1", "label": "Option 1" },
+      { "value": "option2", "label": "Option 2" }
+    ]
+  },
+  "propertyType": {
+    "field_type": "Select",
+    "className": "form-field",
+    "label": "Property Type",
+    "required": true,
+    "options": [
+      { "value": "house", "label": "House" },
+      { "value": "apartment", "label": "Apartment" },
+      { "value": "condo", "label": "Condo" }
+    ]
+  },
+  "tenure": {
+    "field_type": "Select",
+    "className": "form-field",
+    "label": "Tenure",
+    "required": true,
+    "options": [
+      { "value": "freehold", "label": "Freehold" },
+      { "value": "leasehold", "label": "Leasehold" }
+    ]
+  },
+  "salary": {
+    "field_type": "TextField",
+    "className": "form-field",
+    "required": true,
+    "label": "Salary",
+    "value": 44
+  },
+  "propertyValue": {
+    "field_type": "TextField",
+    "className": "form-field",
+    "required": true,
+    "value": "s444",
+    "label": "Property Value"
+  },
+  "personalFinance": {
+    "field_type": "TextField",
+    "className": "form-field",
+    "label": "Personal Finance"
+  },
+  "homeFinance": {
+    "field_type": "TextField",
+    "className": "form-field",
+    "label": "Home Finance"
+  },
+  "button": {
+    "field_type": "Button",
+    "className": "submit-button",
+    "variant":"contained",
+    "label": "Calculate",
+    "onClick": "submitForm"
+  }
+}

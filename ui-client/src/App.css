@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.App-header {
+  background-color: #464c58;
+  display: flex;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

@@ -1,0 +1,9 @@
+I need Form with Text Input and Dropdown  in React js with MUI material component
+Add fields like Retiree, REDF, Property Type, Tenure as Dropdown to the form
+Add fields like Salary, Property Value, Personal Finance, Home Finance as Text Input to the form
+Export this to .js file
+Create metadata JSON to add these fields dynamically to MyForm
+Generate Metadata JSON file
+How to request metadata file in myForm component
+Add CSS to Form elements to make 2 columns layout
+Add CSS to My dynamic Form to make it vertical
