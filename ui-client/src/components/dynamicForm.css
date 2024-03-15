@@ -1,5 +1,5 @@
-
 .aligned_form {
+        
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -7,15 +7,27 @@
 label {
     width: 50%; /* Customize as needed */
 }
+
+.sectionUL {
+  list-style-type: none;
+}
+.sectionLI {
+    padding: 5px;
+}
+.sectionAnchor {
+    font-size: large;
+    cursor: pointer;
+    font-weight: 500;
+}
   
 .form-container {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 80px;
+  margin-top: 10px;
   padding: 20px;
-  width: 450px;
-  background-color: #ccc;
-  border: black solid 1px;
-  border-radius: 5px;
+  width: 500px;
+  background-color: #fafafa;
+  border: #e9e3e3 solid 1px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   gap: 1rem; /* Spacing between form fields */
@@ -42,4 +54,11 @@ label {
 
 .submit-button:hover {
   background-color: #45a049;
+}
+
+.aSelected {
+  color: #D22630;
+  font-size: large;
+  cursor: pointer;
+  font-weight: 500;
 }

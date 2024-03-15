@@ -12,7 +12,7 @@ const layoutEngine = (data) => {
         case 'TextField':
             return (
                 <div className='aligned_form'>
-                    <InputLabel style={{ width: "150px" }}>{labelText}</InputLabel>
+                    <InputLabel style={{ width: "230px" }}>{labelText}</InputLabel>
                     <TextField className={className}></TextField>
                 </div>
             )
@@ -21,7 +21,7 @@ const layoutEngine = (data) => {
         case 'Select':
             return (
                 <div className='aligned_form'>
-                    <InputLabel style={{ width: "150px" }}>{labelText}</InputLabel>
+                    <InputLabel style={{ width: "230px" }}>{labelText}</InputLabel>
                     <Select className={className} style={{ height: "60px" }}>
                         {options?.map((option) => (
                             <MenuItem key={option.value} value={option.value}>

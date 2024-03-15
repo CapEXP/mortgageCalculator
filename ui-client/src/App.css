@@ -3,7 +3,6 @@ body {
   width: 100%;
 }
 
-
 .App-header {
   background-color: #464c58;
   display: flex;
@@ -12,4 +11,21 @@ body {
   margin-top: 20px;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+  border-width: 2px;
+}
+
+a {
+  line-height: 20px;
+  padding: 2px;
+  padding-right: 5px;
+}
+a:hover {
+  color: #D22630;
 }

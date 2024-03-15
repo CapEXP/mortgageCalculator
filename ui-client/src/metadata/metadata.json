@@ -1,74 +1,101 @@
 {
-  "retiree": {
-    "field_type": "Select",
-    "label": "Retiree",
-    "required": true,
-    "className": "form-field",
-    "options": [
-      { "value": "yes", "label": "Yes" },
-      { "value": "no", "label": "No" }
-    ]
-  },
-  "redf": {
-    "field_type": "Select",
-    "className": "form-field",
-    "label": "REDF",
-    "required": true,
-    "options": [
-      { "value": "option1", "label": "Option 1" },
-      { "value": "option2", "label": "Option 2" }
-    ]
-  },
-  "propertyType": {
-    "field_type": "Select",
-    "className": "form-field",
-    "label": "Property Type",
-    "required": true,
-    "options": [
-      { "value": "house", "label": "House" },
-      { "value": "apartment", "label": "Apartment" },
-      { "value": "condo", "label": "Condo" }
-    ]
-  },
-  "tenure": {
-    "field_type": "Select",
-    "className": "form-field",
-    "label": "Tenure",
-    "required": true,
-    "options": [
-      { "value": "freehold", "label": "Freehold" },
-      { "value": "leasehold", "label": "Leasehold" }
-    ]
-  },
-  "salary": {
-    "field_type": "TextField",
-    "className": "form-field",
-    "required": true,
-    "label": "Salary",
-    "value": 44
-  },
-  "propertyValue": {
-    "field_type": "TextField",
-    "className": "form-field",
-    "required": true,
-    "value": "s444",
-    "label": "Property Value"
-  },
-  "personalFinance": {
-    "field_type": "TextField",
-    "className": "form-field",
-    "label": "Personal Finance"
-  },
-  "homeFinance": {
-    "field_type": "TextField",
-    "className": "form-field",
-    "label": "Home Finance"
-  },
-  "button": {
-    "field_type": "Button",
-    "className": "submit-button",
-    "variant":"contained",
-    "label": "Calculate",
-    "onClick": "submitForm"
-  }
+    "Personal Information": {
+        "first_name": {
+            "field_type": "TextField",
+            "label": "First Name",
+            "className": "form-field"
+        },
+        "last_name": {
+            "field_type": "TextField",
+            "label": "Last Name",
+            "className": "form-field"
+        },
+        "national_id": {
+            "field_type": "TextField",
+            "label": "National ID / Iqama Number",
+            "className": "form-field"
+        },
+        "email": {
+            "field_type": "TextField",
+            "label": "Email Address",
+            "className": "form-field"
+        },
+        "phone_number": {
+            "field_type": "TextField",
+            "label": "Mobile Phone Number",
+            "className": "form-field"
+        },
+        "contact_method": {
+            "field_type": "Radio",
+            "label": "Preferred Contact Method",
+            "className": "form-field",
+            "options": [
+                {
+                    "value": "email",
+                    "label": "Email"
+                },
+                {
+                    "value": "phone",
+                    "label": "Phone"
+                }
+            ]
+        }
+    },
+    "Salary Information": {
+        "salary_amount": {
+            "field_type": "TextField",
+            "label": "Annual Salary Amount",
+            "className": "form-field"
+        },
+        "salary_source": {
+            "field_type": "TextField",
+            "label": "Salary Source",
+            "className": "form-field"
+        },
+        "employment_status": {
+            "field_type": "Select",
+            "label": "Employment Status",
+            "className": "form-field",
+            "options": [
+                {
+                    "value": "employed",
+                    "label": "Employed"
+                },
+                {
+                    "value": "self_employed",
+                    "label": "Self-employed"
+                },
+                {
+                    "value": "unemployed",
+                    "label": "Unemployed"
+                }
+            ]
+        }
+    },
+    "Property Information": {
+        "property_value": {
+            "field_type": "TextField",
+            "label": "Property Value",
+            "className": "form-field"
+        },
+        "property_type": {
+            "field_type": "Select",
+            "label": "Property Type",
+            "className": "form-field",
+            "options": [
+                {
+                    "value": "villa",
+                    "label": "Villa"
+                },
+                {
+                    "value": "duplex",
+                    "label": "Duplex"
+                },
+                {
+                    "value": "apartment",
+                    "label": "Apartment"
+                }
+            ]
+        }
+    }
 }
